@@ -19,11 +19,13 @@
 #include "error_check.h"
 #include "cloth.hpp"
 #include "cube.hpp"
-
+#include "Emitter.hpp"
 GLFWwindow* window;
 
 int WINDOW_WIDTH=0;
 int WINDOW_HEIGHT=0;
+float dt=1.f/600;
+
 
 
 int init(){
@@ -43,7 +45,7 @@ int init(){
     WINDOW_WIDTH=1000;
     WINDOW_HEIGHT=1000;
     
-    window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "opengl_playground", NULL, NULL);
+    window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "interactive visualization term project", NULL, NULL);
     
     if (!window) {
         std::cout << "window creation failed!\n";
@@ -90,18 +92,20 @@ int init(){
 
 
 
-
 int main(int argc, char ** argv) {
     
     
     init();
 
+
+   
     
     Shader phong("../../../interactive_visualization2/shader/Phong_VertexShader.glsl","../../../interactive_visualization2/shader/Phong_FragmentShader.glsl");
-    phong.use();
+    Shader toon("../../../interactive_visualization2/shader/Toon_VertexShader.glsl","../../../interactive_visualization2/shader/Toon_FragmentShader.glsl");
+    Shader particle_shader( "../../../interactive_visualization2/shader/Particle_vertexshader.glsl", "../../../interactive_visualization2/shader/Particle_fragmentshader.glsl" );
     
     Camera camera(
-                glm::vec3(10, 10,10), // Camera is at (4,3,3), in World Space
+                glm::vec3(10, 8,10), // Camera is at (4,3,3), in World Space
                 glm::vec3(0, 0, 0), // and looks at the origin
                 glm::vec3(0, 1, 0),
                 glm::radians(45.0f),
@@ -112,40 +116,55 @@ int main(int argc, char ** argv) {
 
         Light light{
             glm::vec3(5,5,5),
-//            glm::vec3(-1,1,-1),
+    //            glm::vec3(-1,1,-1),
             glm::vec3(0,1,1),
             glm::vec3(1.0f,1.0f,1.0f), //spec
                 glm::vec3(0.0f,0.0f,0.0f), //amb
                 glm::vec3(1.0f,1.0f,1.0f) //diffuse
         };
     
+    
+    phong.use();
     phong.setLight(light);
     phong.setCamera(camera);
     
+    toon.use();
+    toon.setLight(light);
+    toon.setCamera(camera);
 
-    
-    
+    Emitter emitter1(camera, particle_shader);
+    Emitter emitter2(camera, particle_shader);
     Ground ground;
     Cloth cloth;
     Cube cube;
+   
+    emitter1.setEmitterPos(glm::vec3 {0,0,-4});
+    emitter2.setEmitterPos(glm::vec3 {0,0,6});
     
+    
+    glCheckError_(132);
+
 
     
-  
     while (!glfwWindowShouldClose(window)) {
         
         
         
         glClear(GL_COLOR_BUFFER_BIT |GL_DEPTH_BUFFER_BIT);
         
-        cloth.update(1.f/600);
-       
-        ground.render(phong, light, camera);
-        
-        cloth.render(phong, light, camera);
+        cloth.update(dt);
+        emitter1.update(dt);
+        emitter2.update(dt);
 
         
-        cube.render(phong,light,camera);
+        
+        ground.render(toon, light, camera);
+        cloth.render(toon, light, camera);
+        cube.render(toon,light,camera);
+        
+        emitter1.render();
+        emitter2.render();
+        
 
         glfwSwapBuffers(window);
         glfwPollEvents();

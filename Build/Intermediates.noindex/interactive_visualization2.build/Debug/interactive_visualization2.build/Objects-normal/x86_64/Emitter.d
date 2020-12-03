@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Shader.cpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Emitter.cpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Emitter.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/GL/glew.h \
-  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Shader.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/glm.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/detail/_fixes.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/fwd.hpp \
@@ -93,6 +93,31 @@ dependencies: \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/integer.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/detail/func_integer.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/detail/func_integer.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/matrix_transform.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../mat4x4.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../vec2.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../vec3.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../vec4.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../gtc/constants.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../detail/setup.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/constants.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/matrix_transform.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../geometric.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../trigonometric.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../matrix.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/norm.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../glm.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtx/quaternion.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtc/constants.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtc/quaternion.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../mat3x3.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/quaternion.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../exponential.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtx/norm.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/quaternion.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/norm.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/texture.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Shader.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Light.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Camera.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/error_check.h

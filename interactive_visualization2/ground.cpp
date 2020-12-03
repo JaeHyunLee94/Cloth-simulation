@@ -104,10 +104,10 @@ void Ground::render(Shader& shader,Light& light,Camera& camera){
     shader.setLight(light);
     shader.setCamera(camera);
     shader.setUniform("worldMat", M);
-    shader.setUniform("Ka", Ka);glCheckError_(137);
-    shader.setUniform("Ks", Ks);glCheckError_(138);
-    shader.setUniform("Ke", Ke);glCheckError_(139);
-    shader.setUniform("sh", sh);glCheckError_(140);
+    shader.setUniform("Ka", Ka);
+    shader.setUniform("Ks", Ks);
+    shader.setUniform("Ke", Ke);
+    shader.setUniform("sh", sh);
 
     
     

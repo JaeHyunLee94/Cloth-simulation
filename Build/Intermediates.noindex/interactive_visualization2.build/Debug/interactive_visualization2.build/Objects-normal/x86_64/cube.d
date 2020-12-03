@@ -129,4 +129,5 @@ dependencies: \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/string_cast.inl \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Light.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Shader.h \
-  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Camera.h
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Camera.h \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/error_check.h

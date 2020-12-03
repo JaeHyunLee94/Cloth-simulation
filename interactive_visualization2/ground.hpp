@@ -47,6 +47,7 @@ public:
     glm::vec3 Ks{0.8f,0.8f,0.8f};
     glm::vec3 Ke{0.1f,0.1f,0.1f};
     glm::mat4x4 M;
+   
 
     
     GLuint VAO_BLACK;
@@ -70,10 +71,10 @@ public:
     
     Ground();
     void render(Shader& shader,Light& light,Camera& camera);
-    
+    void init();
     
 private:
-    void init();
+    
     void renderBlack();
     void renderWhite();
     

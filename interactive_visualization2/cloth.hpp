@@ -61,6 +61,8 @@ public:
     int startX,startY,startZ;
     float dw,dh;
     glm::vec3 color;// 일단은 단색 ㅎㅎ.
+    float fall_time=2.0f;
+    float now_time=0.0f;
     
     float Kshear,Kstruct,Kbend;
     float Kd; //damping
@@ -78,11 +80,12 @@ public:
     
     
     Cloth();
-    void render(Shader& shader,Light& light, Camera& camera);
+    void render(Shader& shader,Light& light,Camera& camera);
     void init();
     void dump();
     void update(float dt); //glsubdata 로 바꾸기
     void collisionCheck();
+    
 //
 //    void applyVelocity();
     void applyExternalForce(); //외부에서 호출 가능

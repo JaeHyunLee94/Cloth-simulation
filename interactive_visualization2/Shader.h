@@ -11,6 +11,7 @@
 #include <glm/glm.hpp>
 #include "Light.h"
 #include "Camera.h"
+#include "error_check.h"
 
 
 class Shader {
@@ -19,7 +20,8 @@ public:
 
     //uniform 얻는 함수 만들, texture load 함수 만들
     //setTexture, setfloat, set vec3...
-
+    
+    Shader();
     Shader(std::string vertexShaderPath_arg, std::string fragmentShaderPath_arg);
 
     void setUniform(std::string name,glm::vec3 v3);
@@ -43,7 +45,7 @@ public:
 
     int makeProgram();
 
-
+    void set(std::string vertexShaderPath_arg, std::string fragmentShaderPath_arg);
     void use();
 
     ~Shader();

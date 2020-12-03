@@ -96,8 +96,8 @@ dependencies: \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/detail/func_integer.inl \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Shader.h \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Camera.h \
-  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/ground.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/error_check.h \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/ground.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/cloth.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/cube.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/matrix_inverse.hpp \
@@ -133,4 +133,15 @@ dependencies: \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/../detail/type_vec1.hpp \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/vec1.inl \
   /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/type_precision.inl \
-  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/string_cast.inl
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/string_cast.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/Emitter.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/matrix_transform.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtc/matrix_transform.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/norm.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtx/quaternion.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtc/constants.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtc/quaternion.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/../gtx/norm.hpp \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/quaternion.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/include/glm/gtx/norm.inl \
+  /Users/jhlee/Desktop/project/interactive_visualization2/interactive_visualization2/texture.hpp

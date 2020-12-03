@@ -11,8 +11,21 @@
 #include <string>
 
 
+Shader::Shader(){
+    
+}
+
 Shader::Shader(std::string vertexShaderPath_arg, std::string fragmentShaderPath_arg) {
 
+    vertexShaderPath = vertexShaderPath_arg;
+    fragmentShaderPath = fragmentShaderPath_arg;
+
+    setVertexShader(vertexShaderPath);
+    setFragmentShader(fragmentShaderPath);
+    makeProgram();
+}
+
+void Shader::set(std::string vertexShaderPath_arg, std::string fragmentShaderPath_arg){
     vertexShaderPath = vertexShaderPath_arg;
     fragmentShaderPath = fragmentShaderPath_arg;
 
@@ -166,11 +179,15 @@ void Shader::setLight(Light& light) {
     /*
      * light possition , 광원 색깔 정의
      */
+    
     setUniform("lightdir",light.direction);
+    glCheckError_(1);
     setUniform("Sd",light.diffColor);
+    glCheckError_(2);
     setUniform("Sa",light.ambColor);
+    glCheckError_(3);
     setUniform("Ss",light.specColor);
-   
+    glCheckError_(4);
 
 }
 

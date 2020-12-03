@@ -12,6 +12,7 @@ Cloth::Cloth(){
     init();
 }
 
+
 void Cloth::init(){
     
     M=glm::mat4(1.0); // 이것도 깔끔하게
@@ -176,7 +177,7 @@ void Cloth::init(){
     }
     
     //is fixed 설정
-    
+    glCheckError_(180);
     glGenVertexArrays(1,&VAO);
     glBindVertexArray(VAO);
     
@@ -206,7 +207,7 @@ void Cloth::init(){
     
 }
 
-void Cloth::render(Shader& shader,Light& light, Camera& camera){
+void Cloth::render(Shader& shader,Light& light,Camera& camera){
     
     
     
@@ -243,6 +244,7 @@ void Cloth::render(Shader& shader,Light& light, Camera& camera){
     
     
 }
+
 
 void Cloth::dump(){
     
@@ -281,7 +283,13 @@ void Cloth::update(float dt){
     }
     collisionCheck();
     computeNormal();
+    now_time+=dt;
+    if(now_time>fall_time){
+        node[0].isFixed=false;
+        node[numW*(numH-1)].isFixed=false;
+    }
     
+    glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER,VBO);glCheckError_(285);
     glBufferSubData(GL_ARRAY_BUFFER, 0, node.size()*sizeof(Node), &node[0]);
     
@@ -437,4 +445,3 @@ void Cloth::collisionCheck(){
     
     
 }
-

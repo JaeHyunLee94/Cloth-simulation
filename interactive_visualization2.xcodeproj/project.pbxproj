@@ -19,6 +19,8 @@
 		8705B437256443610052E0C3 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8705B435256443610052E0C3 /* Shader.cpp */; };
 		8705B43D256526AC0052E0C3 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8705B43A256526AC0052E0C3 /* Camera.cpp */; };
 		8705B44025659EDE0052E0C3 /* error_check.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8705B43F25659EDE0052E0C3 /* error_check.cpp */; };
+		87450DC525756E350028E763 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87450DC325756E350028E763 /* Emitter.cpp */; };
+		87B560FF2576C8D2001A2F13 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87B560FD2576C8D2001A2F13 /* texture.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +70,14 @@
 		8705B43C256526AC0052E0C3 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
 		8705B43E25659EDE0052E0C3 /* error_check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error_check.h; sourceTree = "<group>"; };
 		8705B43F25659EDE0052E0C3 /* error_check.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error_check.cpp; sourceTree = "<group>"; };
+		87450DC325756E350028E763 /* Emitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Emitter.cpp; sourceTree = "<group>"; };
+		87450DC425756E350028E763 /* Emitter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Emitter.hpp; sourceTree = "<group>"; };
+		87B560FD2576C8D2001A2F13 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		87B560FE2576C8D2001A2F13 /* texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = texture.hpp; sourceTree = "<group>"; };
+		87B561042576D36D001A2F13 /* Particle_vertexshader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Particle_vertexshader.glsl; sourceTree = "<group>"; };
+		87B561052576D36D001A2F13 /* Particle_fragmentshader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Particle_fragmentshader.glsl; sourceTree = "<group>"; };
+		87B5610625790023001A2F13 /* Toon_FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Toon_FragmentShader.glsl; sourceTree = "<group>"; };
+		87B5610725790023001A2F13 /* Toon_VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Toon_VertexShader.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,8 @@
 		8705B4172562D4A40052E0C3 /* interactive_visualization2 */ = {
 			isa = PBXGroup;
 			children = (
+				87B560FD2576C8D2001A2F13 /* texture.cpp */,
+				87B560FE2576C8D2001A2F13 /* texture.hpp */,
 				8705B434256443210052E0C3 /* shader */,
 				8705B43F25659EDE0052E0C3 /* error_check.cpp */,
 				8705B43E25659EDE0052E0C3 /* error_check.h */,
@@ -121,6 +133,8 @@
 				8705B432256442850052E0C3 /* ground.hpp */,
 				87044A0D256EB9FE0087D519 /* cube.cpp */,
 				87044A0E256EB9FE0087D519 /* cube.hpp */,
+				87450DC325756E350028E763 /* Emitter.cpp */,
+				87450DC425756E350028E763 /* Emitter.hpp */,
 			);
 			path = interactive_visualization2;
 			sourceTree = "<group>";
@@ -138,6 +152,10 @@
 		8705B434256443210052E0C3 /* shader */ = {
 			isa = PBXGroup;
 			children = (
+				87B5610625790023001A2F13 /* Toon_FragmentShader.glsl */,
+				87B5610725790023001A2F13 /* Toon_VertexShader.glsl */,
+				87B561052576D36D001A2F13 /* Particle_fragmentshader.glsl */,
+				87B561042576D36D001A2F13 /* Particle_vertexshader.glsl */,
 				8705B439256443710052E0C3 /* Phong_FragmentShader.glsl */,
 				8705B438256443710052E0C3 /* Phong_VertexShader.glsl */,
 			);
@@ -204,9 +222,11 @@
 				8705B433256442850052E0C3 /* ground.cpp in Sources */,
 				8705B4302563C75B0052E0C3 /* cloth.cpp in Sources */,
 				8705B43D256526AC0052E0C3 /* Camera.cpp in Sources */,
+				87B560FF2576C8D2001A2F13 /* texture.cpp in Sources */,
 				8705B437256443610052E0C3 /* Shader.cpp in Sources */,
 				87044A0F256EB9FE0087D519 /* cube.cpp in Sources */,
 				8705B4192562D4A40052E0C3 /* main.cpp in Sources */,
+				87450DC525756E350028E763 /* Emitter.cpp in Sources */,
 				8705B44025659EDE0052E0C3 /* error_check.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

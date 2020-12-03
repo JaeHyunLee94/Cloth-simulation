@@ -86,7 +86,7 @@ void Cube::init(){
     glVertexAttribPointer( 1, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
     
     
-    glGenBuffers(1,&EBO);
+    glGenBuffers(1,&EBO); 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER,sizeof(indices),&indices[0],GL_STATIC_DRAW);
     
