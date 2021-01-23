@@ -1,0 +1,13 @@
+﻿  Emitter.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Emitter.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Emitter.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다.
+  2 of 715 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  interactive_visualization.vcxproj -> C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\x64\Release\interactive_visualization.exe

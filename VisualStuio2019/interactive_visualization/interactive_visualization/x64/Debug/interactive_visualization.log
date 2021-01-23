@@ -1,0 +1,74 @@
+﻿  cloth.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(237,71): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(263,13): error C2039: 'computeInternalForce': 'Cloth'의 멤버가 아닙니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.hpp(45): message : 'Cloth' 선언을 참조하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(265,25): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(267,26): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(268,26): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(270,24): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(271,24): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(281,35): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(281,57): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(282,36): error C2065: 'Kd': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(285,9): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(286,9): error C2065: 'spring': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(326,5): error C3861: 'collisionCheck': 식별자를 찾을 수 없습니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(389,13): error C2039: 'collisionCheck': 'Cloth'의 멤버가 아닙니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.hpp(45): message : 'Cloth' 선언을 참조하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(392,19): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(394,12): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(395,13): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(396,13): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(401,12): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(401,34): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(401,56): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(401,78): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(401,100): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(405,34): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(406,33): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(407,32): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(408,33): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(417,17): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(419,17): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(421,17): error C2065: 'node': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.cpp(423,17): error C2065: 'node': 선언되지 않은 식별자입니다.
+  cube.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cube.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cube.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ground.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.cpp(110,29): error C2065: 'sh': 선언되지 않은 식별자입니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.cpp(119,79): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.cpp(129,79): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\ground.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cloth.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\cube.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\Emitter.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\main.cpp(70,40): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
+  texture.cpp
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\texture.cpp(23,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+C:\Users\가디언\Desktop\interactive_visualization\interactive_visualization\interactive_visualization\texture.cpp(134,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
