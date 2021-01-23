@@ -1,0 +1,63 @@
+﻿  Camera.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  cloth.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cloth.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cloth.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cloth.cpp(266,71): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cube.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cube.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cube.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Emitter.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Emitter.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Emitter.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  error_check.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ground.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\ground.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\ground.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\ground.cpp(121,79): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\ground.cpp(131,79): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 매크로 재정의
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\include\GLFW\glfw3.h(123): message : 'APIENTRY'의 이전 정의를 참조하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\ground.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cloth.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\cube.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Emitter.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\main.cpp(70,40): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
+  Shader.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Shader.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Light.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\Camera.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\error_check.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  texture.cpp
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\texture.cpp(27,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\interactive_visualization\texture.cpp(138,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  interactive_visualization.vcxproj -> C:\Users\가디언\Desktop\project\Cloth-simulation\VisualStuio2019\x64\Debug\interactive_visualization.exe
