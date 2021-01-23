@@ -28,3 +28,10 @@ Particle system was highly referenced by opengl tutorial site
 ## Final Result
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/46246202/105609459-d14bc180-5dec-11eb-8925-6b2bed87c8d7.gif)
+
+
+#### Remark
+
+In Visual studio Project, Build for release mode!! not Debug mode!!
+
+Collision detection was hard coded
