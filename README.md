@@ -1,8 +1,13 @@
 # Cloth-simulation
 
-Simple Rigid Body + Cloth(deformable body) + partice system simulation
+Simple Rigid Body + Cloth(deformable body) + partice system simulation with OpenGL
 
 Term Project of Korea University Graphics Course. 
+
+## Dependencies
+- GLFW
+- GLM
+- GLEW
 
 
 
