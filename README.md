@@ -4,10 +4,14 @@ Simple Rigid Body + Cloth(deformable body) + partice system simulation with Open
 
 Term Project of Korea University Graphics Course. 
 
+Both Xcode and Visual Stuido Project supported.
+
 ## Dependencies
 - GLFW
 - GLM
 - GLEW
+
+
 
 
 
